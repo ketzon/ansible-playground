@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/florian/ansible_quickstart/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+BASE_COLLECTIONS_PATH	context/_build/scripts/introspect.py	/^BASE_COLLECTIONS_PATH = '\/usr\/share\/ansible\/collections'$/;"	v
+COMMENT_RE	context/_build/scripts/introspect.py	/^COMMENT_RE = re.compile(r'(?:^|\\s+)#.*$')$/;"	v
+CollectionDefinition	context/_build/scripts/introspect.py	/^class CollectionDefinition:$/;"	c
+DATA	get-pip.py	/^DATA = b"""$/;"	v
+EOF	context/_build/scripts/check_ansible	/^    cat<<EOF$/;"	h
+EOF	context/_build/scripts/check_galaxy	/^    cat<<EOF$/;"	h
+EOF	context/_build/scripts/pip_install	/^    cat<<EOF$/;"	h
+EXCLUDE_REQUIREMENTS	context/_build/scripts/introspect.py	/^EXCLUDE_REQUIREMENTS = frozenset(($/;"	v
+__init__	context/_build/scripts/introspect.py	/^    def __init__(self, collection_path):$/;"	m	class:CollectionDefinition
+ansible-playground	README.md	/^# ansible-playground$/;"	c
+bindep_file_data	context/_build/scripts/introspect.py	/^def bindep_file_data(path):$/;"	f
+bootstrap	get-pip.py	/^def bootstrap(tmpdir):$/;"	f
+cert_parse_args	get-pip.py	/^    def cert_parse_args(self, args):$/;"	f	function:monkeypatch_for_cert	file:
+create_introspect_parser	context/_build/scripts/introspect.py	/^def create_introspect_parser(parser):$/;"	f
+determine_pip_install_arguments	get-pip.py	/^def determine_pip_install_arguments():$/;"	f
+ensure_current_uid_in_passwd	context/_build/scripts/entrypoint	/^function ensure_current_uid_in_passwd() {$/;"	f
+ensure_writeable_homedir	context/_build/scripts/entrypoint	/^function ensure_writeable_homedir() {$/;"	f
+filter_requirements	context/_build/scripts/introspect.py	/^def filter_requirements(reqs: dict[str, list],$/;"	f	typeref:typename:list[str]
+get_dependency	context/_build/scripts/introspect.py	/^    def get_dependency(self, entry):$/;"	m	class:CollectionDefinition
+has_content	context/_build/scripts/introspect.py	/^def has_content(candidate_file):$/;"	f
+include_setuptools	get-pip.py	/^def include_setuptools(args):$/;"	f
+include_wheel	get-pip.py	/^def include_wheel(args):$/;"	f
+install_bindep	context/_build/scripts/assemble	/^function install_bindep {$/;"	f
+install_wheels	context/_build/scripts/assemble	/^function install_wheels {$/;"	f
+is_dir_writable	context/_build/scripts/entrypoint	/^function is_dir_writable() {$/;"	f
+line_is_empty	context/_build/scripts/introspect.py	/^def line_is_empty(line):$/;"	f
+log_debug	context/_build/scripts/entrypoint	/^  function log_debug() { :; }$/;"	f
+log_debug	context/_build/scripts/entrypoint	/^  function log_debug() { echo "EP_DEBUG: $1" 1>&2; }$/;"	f
+logger	context/_build/scripts/introspect.py	/^logger = logging.getLogger(__name__)$/;"	v
+main	context/_build/scripts/introspect.py	/^def main():$/;"	f
+main	get-pip.py	/^def main():$/;"	f
+maybe_fail	context/_build/scripts/entrypoint	/^    function maybe_fail() { echo "EP_FAIL: $1" 1>&2; exit 1; }$/;"	f
+maybe_fail	context/_build/scripts/entrypoint	/^    function maybe_fail() { echo "EP_WARN: $1" 1>&2; }$/;"	f
+maybe_fail	context/_build/scripts/entrypoint	/^    function maybe_fail() { log_debug "EP_FAIL (ignored): $1"; }$/;"	f
+message_parts	get-pip.py	/^    message_parts = [$/;"	v
+min_version	get-pip.py	/^min_version = (3, 9)$/;"	v
+monkeypatch_for_cert	get-pip.py	/^def monkeypatch_for_cert(tmpdir):$/;"	f
+myhosts	inventory.ini	/^[myhosts]$/;"	s
+namespace_name	context/_build/scripts/introspect.py	/^    def namespace_name(self):$/;"	m	class:CollectionDefinition
+parse_args	context/_build/scripts/introspect.py	/^def parse_args(args=None):$/;"	f
+pip_entry_point	get-pip.py	/^    from pip._internal.cli.main import main as pip_entry_point$/;"	x	function:bootstrap	file:	nameref:unknown:main
+pip_file_data	context/_build/scripts/introspect.py	/^def pip_file_data(path):$/;"	f
+process	context/_build/scripts/introspect.py	/^def process(data_dir=BASE_COLLECTIONS_PATH,$/;"	f
+process_collection	context/_build/scripts/introspect.py	/^def process_collection(path):$/;"	f
+read_req_file	context/_build/scripts/introspect.py	/^def read_req_file(path):$/;"	f
+run_introspect	context/_build/scripts/introspect.py	/^def run_introspect(args, log):$/;"	f
+should_be_excluded	context/_build/scripts/introspect.py	/^def should_be_excluded(value: str, exclusion_list: list[str]) -> bool:$/;"	f	typeref:typename:bool
+strip_comments	context/_build/scripts/introspect.py	/^def strip_comments(reqs: dict[str, list]) -> dict[str, list]:$/;"	f	typeref:typename:dict[str,list]
+target_dir	context/_build/scripts/introspect.py	/^    def target_dir(self):$/;"	m	class:CollectionDefinition
+this_python	get-pip.py	/^this_python = sys.version_info[:2]$/;"	v
+write_file	context/_build/scripts/introspect.py	/^def write_file(filename: str, lines: list) -> bool:$/;"	f	typeref:typename:bool
